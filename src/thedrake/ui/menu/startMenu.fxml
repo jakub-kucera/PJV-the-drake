@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" stylesheets="@startMenu.css" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.menu.Controller">
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="buttonGameTwoPlayers" mnemonicParsing="false" onAction="#onStart" text="Hra dvou hráčů"/>
+                <Button fx:id="buttonGameComputer" mnemonicParsing="false" text="Hra proti počítači"/>
+                <Button fx:id="buttonGameInternet" mnemonicParsing="false" text="Hra po internetu"/>
+                <Button fx:id="buttonGameEndMenu" mnemonicParsing="false" onAction="#onExit" text="Konec"/>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

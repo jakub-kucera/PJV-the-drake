@@ -1,0 +1,8 @@
+Button {
+    -fx-background-color: #fd7f51;
+    -fx-text-fill: white;
+}
+
+BorderPane {
+    -fx-background-color: #00befd;
+}

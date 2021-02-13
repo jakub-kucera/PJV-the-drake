@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" stylesheets="thedrake/ui/menu/startMenu.css" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.ui.menu.Controller">
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="label" text="------">
+                    <font>
+                        <Font size="30.0"/>
+                    </font>
+                </Label>
+                <Button fx:id="buttonGamePlayAgain" mnemonicParsing="false" onAction="#onStart" text="Hrát znova"/>
+                <Button fx:id="buttonGameEnd" mnemonicParsing="false" onAction="#onExit" text="Konec"/>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
